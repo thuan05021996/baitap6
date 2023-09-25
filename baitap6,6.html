@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            
+            .item1 {grid-area: header;}
+            .item2 {grid-area: main;}
+            .item3 {grid-area: rightw;}
+            .item4 {grid-area: thu;}
+            .item5 {grid-area: footer;}
+            .item6 {grid-area: aside;}
+            .container{
+                display: grid;
+                grid-template-areas: 
+                'header  header header header'
+                'header header header header'
+                'main  main rightw rightw'
+                'main  main thu thu'
+                'main  main aside aside'
+                'footer footer aside aside '
+                 ;
+                grid-gap: 10px;
+                grid-template-rows: 300px 100px 100px 100px 200px 100px;
+            }
+            
+            .container > div {
+              
+                
+                padding: 20px 0;
+                font-size: 30px;
+            
+            }
+            .conrainer__one {
+                background-image: url(/tải\ xuống.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .font1{
+                 color: white;
+                 margin-bottom: 100px;
+                 font-size: 14px;
+                 padding: 10px;
+             }
+            .container__two{
+                background-image: url(/tải\ xuống\ \(2\).jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .font2{
+                 color: white;
+                 margin-top: 300px;
+                 font-size: 14px;
+                 padding: 10px;
+            }
+            .container__three{
+                background-image: url(/tải\ xuống\ \(1\).jpg)
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 120px;
+            }
+            .font3{
+                 color: rgb(44, 37, 37);
+                 margin-bottom: 30px;
+                 font-size: 14px;
+                 padding: 10px;
+                }
+            .container__four{
+                background-image: url(/tải\ xuống\ \5\.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+               
+            }
+            .font4{
+                 color: rgb(44, 37, 37);
+                 margin-bottom: 30px;
+                text-align: right;
+                 font-size: 14px;
+                 padding: 10px;
+                }
+            .container__five{
+                background-image: url(/tải\ xuống\ \(4\).jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .font5{
+                 color: rgb(44, 37, 37);
+                 margin-bottom: 30px;
+                 font-size: 14px;
+                 padding: 10px;
+                }
+            .container__six{
+                background-image: url(/tải\ xuống\ \(1\).jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .font6{
+                 color: rgb(44, 37, 37);
+                 margin-bottom: 30px;
+                 font-size: 14px;
+                 padding: 10px;
+                }
+
+            button{
+                padding: 10px 50px;
+                background-color: yellow;
+                margin-top: 160px;
+                margin-left: 270px;
+                border-radius: 20px;
+            }
+                            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="conrainer__one item1" >
+                 <div class="font1">
+                    <h2>Cuộc sống </h2>
+                     <p>Muôn màu muôn vẻ</p>
+                 </div>
+            </div>
+            <div class="container__two item2">
+                <div class="font2">
+                    <h2>Mèo dễ thương</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="container__three item3">
+                <div class="font3">
+                    <h2>Mèo xấu xí có vẻ ngoài xấu xi</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="container__four item4">
+                <div class="font4">
+                    <h2>Mèo đẹp trai</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="container__five item5">
+                <div class="font5">
+                    <h2>Mèo xấu xí có vẻ ngoài xấu x</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="container__six item6">
+                <div class="font6">
+                    <h2>Mèo xấu xí có vẻ ngoài xấu xi</h2>
+                    <button>Sign me up!</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+</body>
+</html>
